@@ -8,7 +8,7 @@ set(CMAKE_CXX_STANDARD 11)
 #    set(CMAKE_EXE_LINKER_FLAGS "-s")  ## Strip binary
 #endif ()
 
-set(SOURCE_FILES main.cpp egglist-config.cpp egglist-config.h egglist-defaults.h egglist-engine.cpp egglist-engine.h egglist-utils.cpp egglist-utils.h json/json.hpp)
+set(SOURCE_FILES main.cpp config.cpp config.h defaults.h engine.cpp engine.h utils.cpp utils.h json/json.hpp)
 add_executable(egglist ${SOURCE_FILES})
 
 set(THREADS_PREFER_PTHREAD_FLAG ON)

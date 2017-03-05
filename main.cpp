@@ -1,9 +1,9 @@
-#include "egglist-engine.h"
+#include "engine.h"
 
 
 int main(int argc, char *argv[]) {
 
-    EggListEngine::engine(argc, argv)->start();
+    Engine::engine(argc, argv)->start();
 
 	return 0;
 }
